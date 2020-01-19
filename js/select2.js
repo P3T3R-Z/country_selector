@@ -64,7 +64,7 @@ layui.use('form', function() {
 				return provinceItem;
 			}
 		});
-		
+		removeEle(city);
 		$.each(address[countryIndex][provinceItem], function(i, item) {
 
 			if(!item.n)return
